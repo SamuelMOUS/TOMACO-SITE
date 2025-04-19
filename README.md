@@ -1,11 +1,11 @@
-# 🌿 TOMACO - Le vrai goût du Congo
+#  TOMACO - Le vrai goût du Congo
 
 Bienvenue sur le projet **TOMACO**, un site web conçu pour promouvoir le concentré de tomates 100% congolais. Ce projet valorise l’agriculture locale, soutient les producteurs congolais, et offre un produit naturel, sans conservateurs, ni compromis.
 
 
 ---
 
-## 🚀 Fonctionnalités
+##  Fonctionnalités
 
 - ✅ Design responsive & moderne (Flexbox + animations CSS)
 - ✅ Panier d'achat interactif (ajout/suppression avec JavaScript)
@@ -16,7 +16,7 @@ Bienvenue sur le projet **TOMACO**, un site web conçu pour promouvoir le concen
 
 ---
 
-## 🛠️ Technologies utilisées
+## 🛠 Technologies utilisées
 
 - HTML5
 - CSS3 (animations, flexbox, transitions)
@@ -26,7 +26,7 @@ Bienvenue sur le projet **TOMACO**, un site web conçu pour promouvoir le concen
 
 ---
 
-## 📌 Instructions
+##  Instructions
 
 1. Décompressez le dossier ZIP si nécessaire
 2. Ouvrez `index.html` dans votre navigateur
@@ -35,7 +35,7 @@ Bienvenue sur le projet **TOMACO**, un site web conçu pour promouvoir le concen
 
 ---
 
-## 📬 Contact
+##  Contact
 
 Pour toute question, suggestion ou collaboration :
 **Email** : contact@mrs89086@gmail.com  
@@ -44,6 +44,6 @@ Pour toute question, suggestion ou collaboration :
 
 ---
 
-> TOMACO – Le vrai goût du Congo, dans votre assiette 🍅
+> TOMACO – Le vrai goût du Congo, dans votre assiette 
 
 
