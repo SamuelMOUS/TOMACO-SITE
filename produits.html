@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nos Produits - TOMACO</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="wrapper">
+  <header>
+    <h1 class="hero-title" > TOMACO  </h1>
+    <nav>
+      <a href="index.html">Accueil</a>
+      <a href="produits.html" class="active">Produits</a>
+      <a href="recettes.html">Recettes</a>
+      <a href="contact.html">Contact</a>
+      <a href="landing.html">Offre spéciale</a>
+    </nav>
+  </header>
+
+  <main class="content">
+    <h2>Nos Produits</h2>
+    <p class="intro">
+      Découvrez notre gamme 100% congolaise. Ajoutez vos produits préférés au panier !
+    </p>
+
+    <section class="product-grid">
+      <div class="product-card">
+        <img src="images/tomaco-classic.jpg" alt="TOMACO Classic" class="product-card img" />
+        <h3>TOMACO Classic</h3>
+        <p>Pur concentré naturel, sans conservateurs.</p>
+        <button onclick="addToCart('TOMACO Classic')">Ajouter au panier</button>
+      </div>
+
+      <div class="product-card">
+        <img src="images/tomaco-epice.jpg" alt="TOMACO Épicé" class="product-card img" />
+        <h3>TOMACO Épicé</h3>
+        <p>Un goût relevé pour sublimer vos plats.</p>
+        <button onclick="addToCart('TOMACO Épicé')">Ajouter au panier</button>
+      </div>
+
+      <div class="product-card">
+        <img src="images/tomaco-bio.jpg" alt="TOMACO Bio" class="product-card img"/>
+        <h3>TOMACO Bio</h3>
+        <p>Issu de l’agriculture biologique locale.</p>
+        <button onclick="addToCart('TOMACO Bio')">Ajouter au panier</button>
+      </div>
+    </section>
+
+    <section class="cart">
+      <h3>🛒 Votre Panier</h3>
+      <ul id="cart-list">
+        <!-- Les produits ajoutés apparaîtront ici -->
+      </ul>
+      <button id="clear-cart" onclick="clearCart()">Vider le panier</button>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2025 TOMACO - Le vrai goût du Congo</p>
+  </footer>
+</div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
